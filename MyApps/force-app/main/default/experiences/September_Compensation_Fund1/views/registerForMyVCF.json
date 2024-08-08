@@ -1,0 +1,61 @@
+{
+  "appPageId" : "5cafba7f-6a83-4d17-ab7e-b42c3263c712",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "411548c0-ee0f-4e5d-a85c-6a1e518b0be3",
+  "label" : "Register For myVCF",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1><span style=\"color: rgb(45, 45, 45); font-size: 21px;\">Register With myVCF</span></h1><p><span style=\"color: rgb(27, 27, 27);\">Registration preserves your right to file a claim in the future, waives no legal rights, and does not obligate you to file a claim.</span></p><p>&nbsp;</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "0ade83c6-ba9c-4f74-bca6-df56e26b7eb6",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2a9c7ca4-6f64-46dc-bf0a-1d5f9d51a8c5",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "exposedAttributes" : "RecordId",
+        "flexcardName" : "vcfRegisterAccountContact",
+        "objectApiName" : "{!objectApiName}",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "runtime_omnistudio:flexcard",
+      "id" : "254230c4-e785-4d6b-86b5-b1eff2c650b0",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d7c6e718-f59f-4e50-ae2b-6332b1adf007",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "6131a925-d41f-41dc-bf27-2f84108cc757",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Register For myVCF"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "63136f57-5632-45be-bede-b89bd4c82142",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d3f1c178-50d6-45a1-9112-afdf876efc7c",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "vPHQ65OjxizEy893N0neSEyyA19onx",
+  "type" : "view",
+  "viewType" : "custom-register-for-myvcf"
+}

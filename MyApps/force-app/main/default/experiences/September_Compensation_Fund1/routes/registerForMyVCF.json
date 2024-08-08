@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "411548c0-ee0f-4e5d-a85c-6a1e518b0be3",
+  "appPageId" : "5cafba7f-6a83-4d17-ab7e-b42c3263c712",
+  "configurationTags" : [ ],
+  "devName" : "register_for_myvcf__c",
+  "id" : "8cd189f7-b190-46e9-90a7-d30c357ce702",
+  "label" : "Register For myVCF",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-register-for-myvcf",
+  "type" : "route",
+  "urlPrefix" : "register-for-myvcf"
+}

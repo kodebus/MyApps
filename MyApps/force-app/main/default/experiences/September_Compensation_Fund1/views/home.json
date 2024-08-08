@@ -1,0 +1,112 @@
+{
+  "appPageId" : "5cafba7f-6a83-4d17-ab7e-b42c3263c712",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "802483d8-113b-449d-a3e9-6e2670dedb38",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.myVCF_Banner1.1}\" alt=\"\"></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "3e740253-766c-412a-971f-ad4d5ce4c658",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f82d7a2d-5dae-4048-8192-a98eecda2f93",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "buttonAlignment" : "center",
+        "buttonBgColor" : "",
+        "buttonBgHoverColor" : "",
+        "buttonBorderColor" : "",
+        "buttonMaxWidth" : 100,
+        "buttonRadius" : 0,
+        "buttonTextColor" : "",
+        "buttonTextHoverColor" : "",
+        "confirmationMessage" : "Got it!",
+        "followUpPromptLabel" : "Can we close your question?",
+        "isAskFollowPromptEnabled" : true,
+        "isIncludeArticlesEnabled" : false,
+        "isIncludeDiscussionsEnabled" : true,
+        "isInitialSatisfactionPromptEnabled" : true,
+        "isPublisherDeflectionEnabled" : true,
+        "label" : "Ask a Question",
+        "maxSuggestions" : 5,
+        "satisfactionPromptLabel" : "Did we help to answer your question?",
+        "showDetails" : false,
+        "showTopics" : true,
+        "uneditableTopics" : false
+      },
+      "componentName" : "forceCommunity:askCommunity",
+      "id" : "86fd3d41-2453-4b17-82d6-9a442c1050d7",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "maxWidth" : 100,
+        "overlayColor" : "rgba(0,0,0,0.6)",
+        "overlayHoverColor" : "",
+        "radius" : 0,
+        "showTitle" : false,
+        "textAlignment" : "center",
+        "textBgColor" : "rgba(0,0,0,0)",
+        "textBgHoverColor" : "rgba(0,0,0,0)",
+        "textColor" : "",
+        "textHoverColor" : "",
+        "textPosition" : "center center",
+        "title" : "Featured Topics"
+      },
+      "componentName" : "forceTopic:featuredTopics",
+      "id" : "c10c083c-d2d3-44aa-bb65-ed5f8ee8e696",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ac04a2ef-610c-4360-a45a-d1145a31e083",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "0a1d9c13-840d-41d6-bfef-8e873e27bed2",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "34b8636e-6210-4438-81b6-61765af7181c",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  }, {
+    "id" : "a9e81e22-a575-4544-9e8a-c218aec1ce4f",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>Getting Started</h1><p><strong>Description</strong></p><p>The signing of the VCF Permanent Authorization Act in 2019 appropriates such funds as may be necessary to pay all approved claims and extends the VCF’s claim filing deadline to October 1, 2090. However, you&nbsp;<strong>must register within two years of receiving your certification from the WTC Health Program.</strong></p><p>Please note, you are not required to have an attorney file your VCF claim. You are free to consult with attorneys and you should make your own decision as to whether you wish to retain an attorney.</p><p>Follow the steps below to get started with the VCF.&nbsp;</p><p><br></p><h1>About the Victim Compensation Fund</h1><p>The September 11th Victim Compensation Fund (\"VCF\") provides compensation to individuals (or a personal representative of a deceased individual) who were present at one of the three crash sites during the following timeframes, and who have since been diagnosed with a 9/11-related physical illness:</p><p>&nbsp;</p><ul><li>The World Trade Center or the surrounding&nbsp;<a href=\"https://www.vcf.gov/nyc-map-exposure-zone\" rel=\"noopener noreferrer\" target=\"null\" style=\"color: rgb(38, 114, 222);\"><strong>New York City (\"NYC\") Exposure Zone</strong></a>&nbsp;between September 11, 2001 and May 30, 2002;</li><li>The Pentagon site between September 11, 2001 and November 19, 2001; or</li><li>The Shanksville, Pennsylvania site between September 11, 2001 and October 3, 2001.</li></ul><p><br></p><p><br></p><p>&nbsp;</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "560fb048-5023-4deb-9b71-f73db4dc5546",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c13fec92-5b1b-40a2-81fe-1bcc57ef16f0",
+    "regionName" : "content",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "vPHQ65OjxizEy893N0neSEyyA19onx",
+  "type" : "view",
+  "viewType" : "home"
+}

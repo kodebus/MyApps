@@ -1,0 +1,46 @@
+{
+  "appPageId" : "5cafba7f-6a83-4d17-ab7e-b42c3263c712",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "ef8b9240-92d3-4419-bbb7-2639fce13fd1",
+  "label" : "Custom Search Results",
+  "regions" : [ {
+    "id" : "fdf8fad0-c5c1-4bae-a6b9-bd02adc385d6",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:customSearchResultsList",
+      "id" : "70c1e7a3-5c56-4d3d-8727-59137650fee4",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "71bc77eb-62d1-4030-a614-6080efd78516",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "a29c107d-40bf-4f8b-8379-bcf5e303e6c5",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Custom Search Results"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "ee944d18-8194-4009-aea2-5fdc3317c553",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ed8b3efc-9245-4b21-a664-8c574d47b7d2",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-custom-search-results"
+}
