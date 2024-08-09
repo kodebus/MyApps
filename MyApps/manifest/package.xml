@@ -28,6 +28,18 @@
         <members>*</members>
         <name>LightningComponentBundle</name>
     </types>
+         <types>
+        <members>*</members>
+        <name>ExperienceBundle</name>
+    </types>
+      <types>
+        <members>*</members>
+        <name>DigitalExperienceBundle</name>
+    </types> 
+       <types>
+        <members>*</members>
+        <name>DigitalExperienceConfig</name>
+    </types>
     <types>
         <members>*</members>
         <name>StaticResource</name>
@@ -42,27 +54,11 @@
     </types>
     <types>
         <members>*</members>
-        <name>ExperienceBundle</name>
-    </types>
-    <types>
-        <members>*</members>
         <name>CustomTab</name>
     </types>
     <types>
         <members>*</members>
         <name>CustomObject</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexClass</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexPage</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexComponent</name>
     </types>
     <types>
         <members>*</members>
@@ -84,10 +80,7 @@
         <members>*</members>
         <name>StaticResource</name>
     </types>
-     <types>
-        <members>*</members>
-        <name>Document</name>
-    </types>
+ 
 
     <version>59.0</version>
 </Package>
