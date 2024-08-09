@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Claimant</fullName>
+        <color>#0B6FCE</color>
+        <default>false</default>
+        <label>Claimant</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Law-Firm</fullName>
+        <color>#009900</color>
+        <default>false</default>
+        <label>Law-Firm</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Lawyer</fullName>
+        <color>#0B6FCE</color>
+        <default>false</default>
+        <label>Lawyer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Legal Guardian</fullName>
+        <color>#0B6FCE</color>
+        <default>false</default>
+        <label>Legal Guardian</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Presence Organization</fullName>
+        <color>#419249</color>
+        <default>false</default>
+        <label>Presence Organization</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Union</fullName>
+        <color>#419249</color>
+        <default>false</default>
+        <label>Union</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Victim</fullName>
+        <color>#0B6FCE</color>
+        <default>false</default>
+        <label>Victim</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Witness</fullName>
+        <color>#0B6FCE</color>
+        <default>false</default>
+        <label>Witness</label>
+    </standardValue>
+</StandardValueSet>

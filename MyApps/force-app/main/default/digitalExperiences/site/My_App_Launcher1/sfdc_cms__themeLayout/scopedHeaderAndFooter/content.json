@@ -49,22 +49,6 @@
             "sectionVerticalAlign" : "flex-start"
           },
           "children" : [ {
-            "children" : [ {
-              "attributes" : {
-                "backgroundColor" : "",
-                "isLinkable" : false,
-                "linkAssistiveText" : "",
-                "paddingHorizontal" : "none",
-                "paddingVertical" : "none",
-                "text" : "App Launcher",
-                "textAlign" : "center",
-                "textDecoration" : "{}",
-                "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
-              },
-              "definition" : "dxp_base:textBlock",
-              "id" : "b9ed7dc2-7af0-4837-b56e-283a962141df",
-              "type" : "component"
-            } ],
             "id" : "a714c9b5-1cb5-4997-a5ff-2bfb058f41cb",
             "name" : "footerSection",
             "title" : "Theme Footer",

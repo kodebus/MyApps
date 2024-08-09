@@ -19,6 +19,22 @@
             "sectionVerticalAlign" : "flex-start"
           },
           "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "backgroundColor" : "",
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "none",
+                "paddingVertical" : "none",
+                "text" : "App Launcher",
+                "textAlign" : "center",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "b9ed7dc2-7af0-4837-b56e-283a962141df",
+              "type" : "component"
+            } ],
             "id" : "eded4214-f21d-422e-91d2-4160e583e522",
             "name" : "col1",
             "title" : "Column 1",
