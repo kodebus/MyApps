@@ -8,5 +8,4 @@ import { LightningElement } from 'lwc';
 
 export default class CustomThemeLayoutLWR extends LightningElement {
 
-
 }
