@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>61.0</apiVersion>
+    <isExposed>true</isExposed>    <!-- verify the component is exposed/available with 'true' -->
+    <masterLabel>Custom Theme Layout</masterLabel>
+
+
+    <!-- specifying the metadata of the layout component where we will be using this layout component  -->
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+        <target>lightningCommunity__Theme_Layout</target>
+    </targets>
+
+
+</LightningComponentBundle>
