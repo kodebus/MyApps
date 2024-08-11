@@ -7,10 +7,10 @@
 
     <!-- specifying the metadata of the layout component where we will be using this layout component  -->
     <targets>
-        <target>lightningCommunity__Page</target>
-        <target>lightningCommunity__Default</target>
         <target>lightningCommunity__Theme_Layout</target>
         <target>lightningCommunity__Page_Layout</target>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
         <target>lightning__RecordPage</target>
     </targets>
 
